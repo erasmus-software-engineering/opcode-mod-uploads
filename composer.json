@@ -1,0 +1,25 @@
+{
+	"name": "opcode/opcode-mod-uploads",
+	"description": "WordPress plugin to remove the 'uploads' string from the upload_dir",
+	"homepage": "https://github.com/erasmusa/opcode-mod-uploads",
+	"keywords": [
+		"wordpress"
+	],
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name":"Erasmus Software Engineering",
+			"email":"info@opcode.co.za",
+			"homepage":"https://opcode.co.za/"
+		}
+	],
+	"support"    : {
+			"issues": "https://github.com/erasmusa/opcode-mod-uploads/issues",
+			"source": "https://github.com/erasmusa/opcode-mod-uploads"
+	},
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "~1.0",
+		"aws/aws-sdk-php": "~3.18"
+	 }
+}
