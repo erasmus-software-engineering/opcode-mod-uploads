@@ -1,5 +1,5 @@
 {
-	"name": "opcode/opcode-mod-uploads",
+	"name": "erasmusa/opcode-mod-uploads",
 	"description": "WordPress plugin to remove the 'uploads' string from the upload_dir",
 	"homepage": "https://github.com/erasmusa/opcode-mod-uploads",
 	"keywords": [
