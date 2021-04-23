@@ -39,7 +39,7 @@ class Mod_Uploads {
     }
 }
 
-add_action( 'plugins_loaded', 'opcode_mod_uploads_init' );
+add_action( 'plugins_loaded', 'opcode_mod_uploads_init' , 20);
 
 function opcode_mod_uploads_init() {
 
