@@ -34,7 +34,9 @@ class Mod_Uploads {
 
     public function modify_upload_dir( array $dirs ) : array {
         
-        return str_replace('/uploads', '', $dirs);
+        $dirs['path'] = str_replace('/uploads', '', $dirs['path']);
+        $dirs['basedir'] = str_replace('/uploads', '', $dirs['basedir']);
+        return $dirs;
 
     }
 }
