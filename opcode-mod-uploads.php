@@ -36,6 +36,8 @@ class Mod_Uploads {
         
         $dirs['path'] = str_replace('/uploads', '', $dirs['path']);
         $dirs['basedir'] = str_replace('/uploads', '', $dirs['basedir']);
+        $dirs['url'] = str_replace('/uploads', '', $dirs['url']);
+        $dirs['baseurl'] = str_replace('/uploads', '', $dirs['baseurl']);
         return $dirs;
 
     }
